@@ -7,5 +7,6 @@ gpio
 i2ceeprom
 spiflash
 spiflashfast
+i2cpca9685
 
 # No need to have patterns for windows *.exe as these are allready covered

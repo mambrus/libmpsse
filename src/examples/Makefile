@@ -20,7 +20,10 @@ spiflashfast: spiflashfast.c
 i2ceeprom: i2ceeprom.c
 	$(CC) $(CFLAGS) i2ceeprom.c -o i2ceeprom $(LDFLAGS)
 
-ds1305:
+i2cpca9685: i2cpca9685.c
+	$(CC) $(CFLAGS) i2cpca9685.c -o i2cpca9685 $(LDFLAGS)
+
+ds1305: ds1305.c
 	$(CC) $(CFLAGS) ds1305.c -o ds1305 $(LDFLAGS)
 
 gpio: gpio.c
